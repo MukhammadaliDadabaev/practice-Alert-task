@@ -17,10 +17,6 @@ class App extends Component {
     } else {
       alert("This email is not valid");
     }
-    /* this.setState({
-      agreement: "",
-      email: "",
-    }); */
   };
   render() {
     return (
@@ -53,4 +49,3 @@ class App extends Component {
   }
 }
 export default App;
-// This email is not valid
