@@ -7,6 +7,7 @@ class App extends Component {
   };
 
   handelChecked = (e) => {
+    e.preventDefault();
     if (e.target.name) {
       alert("👏 Congratulations!!!");
     } else if (this.state.name) {
@@ -30,7 +31,7 @@ class App extends Component {
         <form>
           <div className="form">
             <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email"/>
+            <input type="email" name="email" id="email" />
           </div>
           <br />
 
